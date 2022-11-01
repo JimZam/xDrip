@@ -322,7 +322,7 @@ public enum DexCollectionType {
     public static long getCollectorSamplePeriod(final DexCollectionType type) {
         switch (type) {
             default:
-                return 300_000; // 5 minutes
+                return 60_000; // 1 minute
         }
     }
 
